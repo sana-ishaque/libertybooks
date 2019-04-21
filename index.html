@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .last-nav {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(244, 244, 244);
+            color: red;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .main {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+
+        }
+
+        .description {
+            background-color: rgb(244, 244, 244);
+            width: 1100px;
+            height: auto;
+            font-size: 11px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            padding: 5px;
+        }
+
+        .table {
+            font-size: 15px;
+        }
+
+        .picked {
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            height: 40px;
+            text-align: start;
+            padding: 4px;
+            margin-left: 50px;
+            margin-right: 170px;
+            margin-top: 20px;
+
+        }
+
+        .pickedbook {
+            margin-left: 50px;
+            margin-top: 15px;
+            box-shadow: 1px 2px 3px rgba(128, 128, 128, 0.287);
+            color: rgba(128, 128, 128, 0.287);
+        }
+
+        .revive {
+            margin-left: 40px;
+            margin-top: 15px;
+            color: rgb(51, 55, 69);
+        }
+
+
+        .authorname {
+            color: red;
+            font-size: 13px;
+            margin-left: 50px;
+        }
+
+        .addcart {
+            color: white;
+            background-color: red;
+            border-color: red;
+            border-radius: 10px;
+            height: 25px;
+            margin-left: 90px;
+        }
+
+        .footer {
+            background-color: black;
+            height: auto;
+            margin-top: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <div style="background-color:black" id="upper nav">
+                <a href="https://www.libertybooks.com/index.php?route=information/contact" style="color:white">
+                    <img src="images/nav-1/1.png" alt="icon" width="30" height="30">Contact US
+                </a>
+
+                <a href="https://www.libertybooks.com/about_us" style="color:white">
+                    <img src="images/nav-1/2.png" width="25" height="25">About Us</a>
+
+                <a href="https://www.libertybooks.com/Our%20Bookstores" style="color:white">
+                    <img src="images/nav-1/3.png" width="25" height="25">Our Bookstores</a>
+
+
+                <a href="https://www.libertybooks.com/index.php?route=account/login" style="color:white">
+                    <img src="images/nav-1/4.png" width="25" height="25">Login
+                </a>
+
+                <a href="https://www.libertybooks.com/index.php?route=account/register" style="color:white">
+                    <img src="images/nav-1/6.jpg" width="25" height="25"> Register</a>
+
+                <a href="https://www.libertybooks.com/index.php?route=account/login" style="color:white">
+                    <img src="images/nav-1/5.png" width="25" height="25">Order History
+                </a>
+
+                <a href="https://www.libertybooks.com/index.php?route=information/request_a_book" style="color:white">
+                    <img src="images/nav-1/7.png" width="30" height="30">Import a Book</a>
+            </div>
+        </center>
+        <section style="background-color:rgb(211, 55, 55)">
+            <center>
+                <img src="images/logo/libertay-name.png" width="320px" height="65px">
+                <input type="search" placeholder="Search by keyword / title/ author">
+                <input type="image" src="images/logo/searchbar.png" width="30" height="30">
+            </center>
+        </section>
+
+        <nav class="last-nav">
+            <div>
+                <ul>
+                    <li><img src="images/home-icon.png" width="20" height="20">CATEGORIES</li>
+                    <li>URDU BOOKS</li>
+                    <li>REDUCED PRICE</li>
+                    <li>GIFTS</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <nav>
+            <p style="background-color:rgba(218, 205, 205, 0.74)">
+                <a href=" #"><strong>Home<code>>></code></strong></a>
+                <a href="#"><strong>Family Upstairs</strong></a>
+            </p>
+            <p style="background-color:rgba(218, 205, 205, 0.74)">
+                The Family Upstairs <a href="#">BY LISA JEWELL</a>
+            </p>
+            <img src="main.PNG" width="300" height="410"><br>
+        </nav>
+
+        <img src="images/stars.png" width="80" height="80">views:23
+        <aside>
+            <p>
+                Author:<font color="green">PreOrder</font><br>
+                Author:Lisa Jewell<br>
+                Publication Date:25/07/2019<br>
+                Binding:Paperback
+            </p>
+            <p
+                style="background-color:red; border-radius: 6px; width: 70px; height: 10x; color:white; text-align: center;">
+                <s>RS 1550</s></p>
+            <h2>RS 1,3950.00</h2>
+            <p>You Save: <div style="color:red"><strong>155</strong> </div>
+            </p>
+            <button style="color:black">-</button>
+            <input type="number">
+            <button style="color:black">+</button>
+            <button>ADD TO CART</button>
+            <br>
+            <br>
+            <center>
+                <p style="background-color:rgb(244,244,244)">
+                    <img src="images/whishlist.png" width="15px" height="15px" style="margin-right: 5px;">Add to
+                    wishlist
+                    <img src="images/compare.png" width="15px" height="15px" style="margin-left:9px">Compare this
+                    product
+                </p>
+            </center>
+            <input type="checkbox" name="" id="">Notify me when this book is available <br>
+            <img src="images/socialmedia/fb.jpg" width="120x" height="30px">
+            <img src="images/socialmedia/twitter.png" width="30" height="30">
+            <img src="images/socialmedia/linkedin.png" width="30" height="30">
+            <img src="images/socialmedia/google-plus.png" width="30" height="30">
+        </aside>
+
+        <section style=" margin-top:20px; margin-left:50px;">
+            <button>DESCRIPTION</button>
+            <button>REVIEWS (0)</button>
+            <button>GOODREAD REVIEWS</button>
+        </section>
+
+        <div class="description">
+            <p>
+                <pre>In a large house in London’s fashionable Chelsea, a baby is awake in her cot. Well-fed and cared for, she is happily waiting for someone to pick her up.
+
+                        In the kitchen lie three decomposing corpses. Close to them is a hastily scrawled note. 
+                        
+                        They’ve been dead for several days.
+                        
+                        Who has been looking after the baby? 
+                        
+                        And where did they go?
+                        
+                        Two entangled families.
+                        
+                        A house with the darkest of secrets.
+                        
+                        A compulsive new thriller from Lisa Jewell.</pre>
+                <div class="table">
+                    <table>
+                        <h3>Book Detail</h3>
+                        <tr>
+                            <td>Number of pages:</td>
+                            <td style="padding-left:300px;">432 Pages</td>
+                        </tr>
+                        <tr>
+                            <td>Bar Code:</td>
+                            <td style="padding-left:300px;">9781780899213</td>
+                        </tr>
+                        <tr>
+                            <td>Publisher:</td>
+                            <td style="padding-left:300px;">Penguin Books</td>
+                        </tr>
+                    </table>
+                </div>
+            </p>
+        </div>
+
+        <figure class="picked">
+            <p>You Picked</p>
+        </figure>
+        <figure>
+            <img class="pickedbook" src="images/picked.PNG" width="150" height="220">
+            <figcaption class="revive">"Revive Your Heart: Putt..</figcaption>
+            <p class="authorname">by: Nouman Ali Khan</p>
+            <p>
+                <s style=" margin-left:40px; font-weight: 600; color:rgb(164,23,51)">Rs 1650</s>
+                <strong style="margin-left:10px;"> Rs. 1,567.50</strong>
+            </p>
+        </figure>
+        <input type="button" value="ADD TO CART" class="addcart">
+    </main>
+
+    <footer class="footer">
+        <div class="socialmedia" style="padding-top: 30px">
+            <center>
+                <a href="#"><img src="images/f-message.PNG" title="Whatsapp-0332-2211427"></a>
+                <a href="#"><img src="images/f-fb.PNG" title="Facebook"></a>
+                <a href="#"><img src="images/f-twitter.PNG" title="twitter"></a>
+                <a href="#"><img src="images/f-insta.PNG" title="Instagram"></a>
+            </center>
+        </div>
+        <table style="font-size:13px; margin-left: 100px; margin-top: 30px; margin-bottom: 30px; padding: 20px">
+            <tr>
+                <th>INFORMATION</th>
+                <th>CUTOMER SUPPORT</th>
+                <th>PAYMENT METHODS</th>
+            </tr>
+            <tr>
+                <td>>Shipping & Delivery</td>
+                <td>>Site Map</td>
+                <td><img src="images/paymethods-1.PNG" height="50px"></td>
+            </tr>
+            <tr>
+                <td>>Our Bookstores</td>
+                <td>FAQs</td>
+                <td><img src="images/paymethods-2.PNG" height="50px"></td>
+            </tr>
+            <tr>
+                <td>>Payment Methods</td>
+                <td>FAQs</td>
+            </tr>
+            <tr>
+                <td>>Returns & Exchange policy</td>
+                <td>FAQs</td>
+            </tr>
+        </table>
+    </footer>
+    <p style="font-size:13px; margin-left: 100px; margin-top: 30px;">Copyright © 2019, Liberty Books, All Rights
+        Reserved.</p>
+</body>
+</html>
